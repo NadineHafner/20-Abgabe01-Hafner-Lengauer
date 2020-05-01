@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="306064e7-97df-4e03-a589-b06136b451fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/Drink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/Liquid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/SimpleDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/ComplexDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/ComplexDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/FashionedDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/FashionedDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="JUnit.All in test (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -83,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588344222919</updated>
       <workItem from="1588344226125" duration="1465000" />
+      <workItem from="1588345886615" duration="1961000" />
     </task>
     <servers />
   </component>

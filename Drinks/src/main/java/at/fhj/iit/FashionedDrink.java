@@ -1,5 +1,6 @@
 package at.fhj.iit;
 
+import java.util.ArrayList;
 import java.util.List;
 
 enum Extra {DrinkingStraw, IceCube, Lemon, Umbrella}
@@ -16,9 +17,12 @@ public class FashionedDrink extends ComplexDrink
      * @param liquids liquids in the drink
      * @param extras extras in the drink
      */
-    public FashionedDrink(String name, List<Liquid> liquids, Extra extras) {
+    public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) {
         super(name, liquids);
-        //TODO:
+        this.extras=new ArrayList<>();
+        this.extras=extras;
+
+
     }
 
     /**
@@ -27,8 +31,21 @@ public class FashionedDrink extends ComplexDrink
      * @return the extras
      */
     public List<Extra> getExtras() {
-        //TODO:
-        return null;
+        
+
+        return extras;
     }
+    public String getExtrasToString(){
+        String str="";
+        for (int i=0; i<extras.size();i++){
+            str+=extras.get(i).name();
+            if(i<extras.size()-1){
+                str+=", ";
+            }
+        }
+        return str;
+    }
+
 }
+
 

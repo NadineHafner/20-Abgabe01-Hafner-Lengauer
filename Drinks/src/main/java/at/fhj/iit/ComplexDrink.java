@@ -1,5 +1,6 @@
 package at.fhj.iit;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ComplexDrink extends Drink
@@ -14,7 +15,9 @@ public class ComplexDrink extends Drink
     public ComplexDrink(String name, List<Liquid> liquids)
     {
         super(name);
-        //TODO:
+        this.liquids=new ArrayList<Liquid>();
+        this.liquids=liquids;
+
     }
 
     /**
@@ -24,8 +27,12 @@ public class ComplexDrink extends Drink
      */
     @Override
     public double getVolume() {
-        //TODO:
-        return 0;
+
+        double wholeVolume=0;
+        for(Liquid l: liquids){
+            wholeVolume+=l.getVolume();
+        }
+        return wholeVolume;
     }
 
     /**
@@ -35,8 +42,14 @@ public class ComplexDrink extends Drink
      */
     @Override
     public double getAlcoholPercent() {
-        //TODO:
-        return 0;
+
+        double wholeAlcoholPercent=0;
+        double wholeVolume=getVolume();
+        for(Liquid l: liquids){
+            wholeAlcoholPercent+=l.getAlcoholPercent()*(l.getVolume()/wholeVolume);
+        }
+
+        return wholeAlcoholPercent;
     }
 
     /**
@@ -46,7 +59,7 @@ public class ComplexDrink extends Drink
      */
     @Override
     public boolean isAlcoholic() {
-        //TODO:
-        return false;
+
+        return getAlcoholPercent()!=0;
     }
 }
