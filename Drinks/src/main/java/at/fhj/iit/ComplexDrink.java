@@ -44,14 +44,14 @@ public class ComplexDrink extends Drink
      * @return alcohol volume percent (e.g. 50)
      */
     @Override
-    public double getAlcoholPercent() {
-
+    public double getAlcoholPercent()
+    {
         double wholeAlcoholPercent=0;
         double wholeVolume=getVolume();
-        for(Liquid l: liquids){
+        for(Liquid l: liquids)
+        {
             wholeAlcoholPercent+=l.getAlcoholPercent()*(l.getVolume()/wholeVolume);
         }
-
         return wholeAlcoholPercent;
     }
 
