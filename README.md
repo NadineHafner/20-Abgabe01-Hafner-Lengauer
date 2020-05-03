@@ -10,7 +10,13 @@ The project "Drinks" already contains:
 - SimpleDrinks.java (extends class Drink.java)
 All classes already contain constructors, getters and setters and JavaDoc. Also already implemented: Tests using junit5.
 ******
-
+Planned extensions:
+ 
+1. ComplexDrink: extends class Drink takes a list of liquids
+2. TemperateDrink: extends class CompexDrink and takes additional float for temperature
+3. FashionedDrink: extends class ComplexDrink and takes additional enum-list with extras (drinking-straw etc.)
+4. UnderAbsoluteZeroException: is thrown when temperature is lower than -273,15°C
+5. BoilingException: is thrown when temperature is higher than 73,37°C
 ## Code Snippet
 
 ```
