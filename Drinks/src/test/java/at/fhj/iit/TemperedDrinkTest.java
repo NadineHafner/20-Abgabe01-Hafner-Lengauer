@@ -45,7 +45,7 @@ public class TemperedDrinkTest
         {
             exceptionMessage = ex.getMessage();
         }
-        assertEquals(exceptionMessage, "The temperature of the drink is under the absolute zero and therefor impossible!");
+        assertEquals("The temperature of the drink is under the absolute zero and therefor impossible!",exceptionMessage);
     }
 
     @Test
@@ -64,7 +64,7 @@ public class TemperedDrinkTest
         {
             exceptionMessage = ex.getMessage();
         }
-        assertEquals(exceptionMessage, "The temperature of the drink is higher than the boiling temperature of the alcohol!");
+        assertEquals("The temperature of the drink is higher than the boiling temperature of the alcohol!", exceptionMessage);
     }
 
     @Test
@@ -82,7 +82,7 @@ public class TemperedDrinkTest
         {
             exceptionMessage = ex.getMessage();
         }
-        assertEquals(exceptionMessage, "The temperature of the drink is higher than the boiling temperature of water, which is the majority of the drink!");
+        assertEquals("The temperature of the drink is higher than the boiling temperature of water, which is the majority of the drink!",exceptionMessage);
     }
 
     @Test
@@ -101,7 +101,7 @@ public class TemperedDrinkTest
         {
             exceptionMessage = ex.getMessage();
         }
-        assertEquals(exceptionMessage, null);
+        assertEquals(null, exceptionMessage);
     }
 
     @Test
@@ -119,7 +119,7 @@ public class TemperedDrinkTest
         {
             exceptionMessage = ex.getMessage();
         }
-        assertEquals(temperedDrink.getTemperature(), 12,0.001);
+        assertEquals(12,temperedDrink.getTemperature(),0.001);
     }
 
 }

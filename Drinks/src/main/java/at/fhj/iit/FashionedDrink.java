@@ -17,7 +17,7 @@ public class FashionedDrink extends ComplexDrink
      * @param liquids liquids in the drink
      * @param extras extras in the drink
      */
-    public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) throws NoLiquidsExeption
+    public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) throws NoLiquidsException
     {
         super(name, liquids);
         this.extras=new ArrayList<>();
