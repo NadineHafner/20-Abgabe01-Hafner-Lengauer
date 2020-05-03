@@ -12,10 +12,10 @@ public class TemperedDrink extends ComplexDrink
      * @param liquids liquids in the drink
      * @param temperature temperature of the drink
      */
-    public TemperedDrink(String name, List<Liquid> liquids, float temperature)  throws UnderAbsoluteZeroException, BoilingException
+    public TemperedDrink(String name, List<Liquid> liquids, float temperature)  throws UnderAbsoluteZeroException, BoilingException, NoLiquidsExeption
     {
         super(name, liquids);
-        if(temperature < 273.15f)
+        if(temperature < -273.15f)
         {
             throw new UnderAbsoluteZeroException("The temperature of the drink is under the absolute zero and therefor impossible!");
         }

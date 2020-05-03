@@ -12,12 +12,15 @@ public class ComplexDrink extends Drink
      * @param name name of the drink
      * @param liquids liquids in the drink
      */
-    public ComplexDrink(String name, List<Liquid> liquids)
+    public ComplexDrink(String name, List<Liquid> liquids) throws NoLiquidsException
     {
         super(name);
         this.liquids=new ArrayList<Liquid>();
         this.liquids=liquids;
-
+        if(liquids.size() <= 0)
+        {
+            throw new NoLiquidsException("The drink has no liquids!");
+        }
     }
 
     /**
@@ -61,5 +64,16 @@ public class ComplexDrink extends Drink
     public boolean isAlcoholic() {
 
         return getAlcoholPercent()!=0;
+    }
+}
+
+/**
+ * Throws an exception if the drink has no liquids
+ */
+class NoLiquidsException extends Exception
+{
+    public NoLiquidsException(String message)
+    {
+        super(message);
     }
 }

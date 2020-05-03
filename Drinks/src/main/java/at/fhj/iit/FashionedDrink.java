@@ -17,12 +17,11 @@ public class FashionedDrink extends ComplexDrink
      * @param liquids liquids in the drink
      * @param extras extras in the drink
      */
-    public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) {
+    public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) throws NoLiquidsExeption
+    {
         super(name, liquids);
         this.extras=new ArrayList<>();
         this.extras=extras;
-
-
     }
 
     /**
