@@ -18,11 +18,11 @@ All classes already contain constructors, getters and setters and JavaDoc. Also 
 public double getAlcoholPercent()  
 {  
     double wholeAlcoholPercent=0;  
-	double wholeVolume=getVolume();  
-	for(Liquid l: liquids)  
+    double wholeVolume=getVolume();  
+    for(Liquid l: liquids)  
     {  
         wholeAlcoholPercent+=l.getAlcoholPercent()*(l.getVolume()/wholeVolume);  
-	}  
+    }  
     return wholeAlcoholPercent;  
 } 
 ```
