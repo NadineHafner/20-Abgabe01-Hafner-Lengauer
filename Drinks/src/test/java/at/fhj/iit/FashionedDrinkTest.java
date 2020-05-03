@@ -34,17 +34,16 @@ public class FashionedDrinkTest
         stroh80 = new Liquid("Stroh80",0.01d,80);
         milk = new Liquid("Milch",0.5d,0);
     }
+
     /**
      * testing constructor
      * assigned variables extras and liquids for the constructor and then checked if no exception was thrown
      */
-
     @Test
     @DisplayName("Testing Constuctor")
     public void testConstructor()
     {
         exceptionMessage = null;
-
         try
         {
             liquids = new ArrayList<Liquid>();
@@ -67,25 +66,25 @@ public class FashionedDrinkTest
     @Test
     @DisplayName("Testing getExtras")
     public void testGetExtras()
-{
-    exceptionMessage = null;
+    {
+        exceptionMessage = null;
+        try
+        {
+            liquids = new ArrayList<Liquid>();
+            liquids.add(tonicWater);
+            extras= new ArrayList<Extra>();
+            extras.add(Extra.Lemon);
+            extras.add(Extra.DrinkingStraw);
+            extras.add(Extra.IceCube);
+            fashionedDrink = new FashionedDrink("Milk",liquids,extras);
+        }
+        catch(Exception ex)
+        {
+            exceptionMessage = ex.getMessage();
+        }
+        assertEquals(extras, fashionedDrink.getExtras());
+    }
 
-    try
-    {
-        liquids = new ArrayList<Liquid>();
-        liquids.add(tonicWater);
-        extras= new ArrayList<Extra>();
-        extras.add(Extra.Lemon);
-        extras.add(Extra.DrinkingStraw);
-        extras.add(Extra.IceCube);
-        fashionedDrink = new FashionedDrink("Milk",liquids,extras);
-    }
-    catch(Exception ex)
-    {
-        exceptionMessage = ex.getMessage();
-    }
-    assertEquals(extras, fashionedDrink.getExtras());
-}
     /**
      * testing getExtras
      * assigned variables extras and liquids for the constructor and then compared the output
@@ -95,7 +94,6 @@ public class FashionedDrinkTest
     public void testGetExtrasToString()
     {
         exceptionMessage = null;
-
         try
         {
             liquids = new ArrayList<Liquid>();
@@ -112,9 +110,4 @@ public class FashionedDrinkTest
         }
         assertEquals("Lemon, DrinkingStraw, IceCube", fashionedDrink.getExtrasToString());
     }
-
-
-
-
-
 }

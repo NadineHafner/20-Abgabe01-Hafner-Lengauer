@@ -3,7 +3,8 @@ package at.fhj.iit;
  * Class represents a simple drink liquid which can be used in
  * drinks
  */
-public class SimpleDrink extends Drink{
+public class SimpleDrink extends Drink
+{
     /**
      * uses only one liquid
      */
@@ -15,7 +16,8 @@ public class SimpleDrink extends Drink{
      * @param name name of drink
      * @param l only liquid in drink
      */
-    SimpleDrink(String name, Liquid l){
+    SimpleDrink(String name, Liquid l)
+    {
         super(name);
         this.l = l;
     }

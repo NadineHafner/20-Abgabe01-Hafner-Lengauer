@@ -19,7 +19,6 @@ public class SimpleDrinkTest
     private SimpleDrink alcoholicSimpleDrink;
     private SimpleDrink antiAlcoholicSimpleDrink;
 
-
     /**
      * inits liquids for the tests
      */
@@ -28,7 +27,6 @@ public class SimpleDrinkTest
     {
         alcoholicSimpleDrink=new SimpleDrink("Gin",new Liquid("Gin",0.3d,40d));
         antiAlcoholicSimpleDrink=new SimpleDrink("Milk",new Liquid("Milk",0.1d,0d));
-
     }
 
     /**
@@ -64,6 +62,4 @@ public class SimpleDrinkTest
         assertEquals(false, antiAlcoholicSimpleDrink.isAlcoholic());
         assertEquals(true, alcoholicSimpleDrink.isAlcoholic());
     }
-
-
 }

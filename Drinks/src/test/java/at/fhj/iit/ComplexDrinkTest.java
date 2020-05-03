@@ -29,11 +29,11 @@ public class ComplexDrinkTest
         stroh80 = new Liquid("Stroh80",0.01d,80);
         milk = new Liquid("Milch",0.5d,0);
     }
+
     /**
      * testing NoLiquidsException
      * assigned Lists liquids and complexDrink for the constructor and check if Exception is thrown
      */
-
     @Test
     @DisplayName("Testing NoLiquidsException")
     public void testNoLiquidsException()
@@ -50,11 +50,11 @@ public class ComplexDrinkTest
         }
         assertEquals("The drink has no liquids!",exceptionMessage);
     }
+
     /**
      * testing constructor
      * testing if no Exception is thrown
      */
-
     @Test
     @DisplayName("Test Constructor")
     public void testConstructor()
@@ -73,11 +73,11 @@ public class ComplexDrinkTest
         }
         assertEquals(null, exceptionMessage);
     }
+
     /**
      * testing getVolume
      * assigned Lists liquids and complexDrink and compared output
      */
-
     @Test
     @DisplayName("Testing volume getter")
     public void testVolumeGetter()
@@ -97,11 +97,11 @@ public class ComplexDrinkTest
         }
         assertEquals(0.3d,complexDrink.getVolume(),0.001);
     }
+
     /**
      * testing getAlcoholPercent
      * assigned Lists liquids and complexDrink and compared output
      */
-
     @Test
     @DisplayName("Testing alcoholPercent getter")
     public void testAlcoholPercentGetter()
@@ -123,11 +123,11 @@ public class ComplexDrinkTest
         }
         assertEquals(4.7619d,complexDrink.getAlcoholPercent(),0.001);
     }
+
     /**
      * testing isAlcoholic
      * assigned Lists liquids and complexDrink and compared output
      */
-
     @Test
     @DisplayName("Testing isAlcoholic function")
     public void testIsAlcoholic()

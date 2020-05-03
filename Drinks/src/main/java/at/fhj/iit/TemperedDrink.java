@@ -5,6 +5,7 @@ import java.util.List;
 public class TemperedDrink extends ComplexDrink
 {
     private float temperature;
+
     /**
      * Creates a Drink object with given name, liquids and temperature
      *

@@ -3,7 +3,8 @@ package at.fhj.iit;
 /**
  * Abstract base class for concrete drink classes
  */
-public abstract class Drink {
+public abstract class Drink
+{
     /**
      * name of the drink
      */

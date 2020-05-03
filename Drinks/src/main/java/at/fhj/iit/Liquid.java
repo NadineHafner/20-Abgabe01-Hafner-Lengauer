@@ -3,7 +3,8 @@ package at.fhj.iit;
  * Class represents a liquid which can be used in
  * drinks
  */
-public class Liquid {
+public class Liquid
+{
     /**
      * name of liquid
      */
@@ -26,7 +27,8 @@ public class Liquid {
      * @param volume volume of liquid
      * @param alcoholPercent of liquid
      */
-    public Liquid(String name, double volume, double alcoholPercent) {
+    public Liquid(String name, double volume, double alcoholPercent)
+    {
         this.name = name;
         this.volume = volume;
         this.alcoholPercent = alcoholPercent;

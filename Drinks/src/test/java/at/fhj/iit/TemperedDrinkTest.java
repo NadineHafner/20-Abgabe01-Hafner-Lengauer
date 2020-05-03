@@ -31,6 +31,7 @@ public class TemperedDrinkTest
         stroh80 = new Liquid("Stroh80",0.01d,80);
         milk = new Liquid("Milch",0.5d,0);
     }
+
     /**
      * testing AbsoluteZeroException
      * creating temperedDrink with temperature under absolute zero and checking if Exception is thrown
@@ -52,6 +53,7 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is under the absolute zero and therefor impossible!",exceptionMessage);
     }
+
     /**
      * testing BoilingException
      * creating temperedDrink with temperature at boiling temperature of alcohol and checking if Exception is thrown
@@ -74,6 +76,7 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is higher than the boiling temperature of the alcohol!", exceptionMessage);
     }
+
     /**
      * testing BoilingException
      * creating non- alcoholic temperedDrink with temperature at boiling temperature of alcohol and checking if Exception is thrown
@@ -95,6 +98,7 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is higher than the boiling temperature of water, which is the majority of the drink!",exceptionMessage);
     }
+
     /**
      * testing constructor
      * assigned variables extras and liquids for the constructor and then checked if no exception was thrown
@@ -117,6 +121,7 @@ public class TemperedDrinkTest
         }
         assertEquals(null, exceptionMessage);
     }
+
     /**
      * testing getTemperature
      * assigned variables liquids for the constructor and then checked if temperature is the same
@@ -138,5 +143,4 @@ public class TemperedDrinkTest
         }
         assertEquals(12,temperedDrink.getTemperature(),0.001);
     }
-
 }

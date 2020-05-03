@@ -7,9 +7,7 @@ enum Extra {DrinkingStraw, IceCube, Lemon, Umbrella}
 
 public class FashionedDrink extends ComplexDrink
 {
-
     private List<Extra> extras;
-
     /**
      * Creates a Drink object with given name, liquids and extras
      *
@@ -24,18 +22,22 @@ public class FashionedDrink extends ComplexDrink
         this.extras=new ArrayList<>();
         this.extras=extras;
     }
-
     /**
      * Returns the extras of the drink
      *
      * @return the extras
      */
-    public List<Extra> getExtras() {
-
-
+    public List<Extra> getExtras()
+    {
         return extras;
     }
-    public String getExtrasToString(){
+    /**
+     * Returns the extras of the drink as string
+     *
+     * @return the extras as string
+     */
+    public String getExtrasToString()
+    {
         String str="";
         for (int i=0; i<extras.size();i++){
             str+=extras.get(i).name();

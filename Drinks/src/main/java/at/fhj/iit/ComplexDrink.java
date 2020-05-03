@@ -23,22 +23,20 @@ public class ComplexDrink extends Drink
             throw new NoLiquidsException("The drink has no liquids!");
         }
     }
-
     /**
      * Returns volume of liquid l
      *
      * @return the volume of drink in litre
      */
     @Override
-    public double getVolume() {
-
+    public double getVolume()
+    {
         double wholeVolume=0;
         for(Liquid l: liquids){
             wholeVolume+=l.getVolume();
         }
         return wholeVolume;
     }
-
     /**
      * Calculates and returns the alcohol percentage
      *
@@ -55,15 +53,14 @@ public class ComplexDrink extends Drink
         }
         return wholeAlcoholPercent;
     }
-
     /**
      * Gives information if drink is alcoholic or not
      *
      * @return true when alcoholic liquids are present, otherwise false
      */
     @Override
-    public boolean isAlcoholic() {
-
+    public boolean isAlcoholic()
+    {
         return getAlcoholPercent()!=0;
     }
 }
