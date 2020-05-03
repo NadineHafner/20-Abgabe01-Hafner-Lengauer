@@ -10,3 +10,19 @@ The project "Drinks" already contains:
 - SimpleDrinks.java (extends class Drink.java)
 All classes already contain constructors, getters and setters and JavaDoc. Also already implemented: Tests using junit5.
 ******
+
+## Code Snippet
+
+```
+@Override  
+public double getAlcoholPercent()  
+{  
+    double wholeAlcoholPercent=0;  
+	double wholeVolume=getVolume();  
+	for(Liquid l: liquids)  
+    {  
+        wholeAlcoholPercent+=l.getAlcoholPercent()*(l.getVolume()/wholeVolume);  
+	}  
+    return wholeAlcoholPercent;  
+} 
+```
