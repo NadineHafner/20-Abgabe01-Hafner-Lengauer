@@ -16,6 +16,7 @@ public class FashionedDrink extends ComplexDrink
      * @param name    name of the drink
      * @param liquids liquids in the drink
      * @param extras extras in the drink
+     * @throws NoLiquidsException is thrown if list has no liquids in it
      */
     public FashionedDrink(String name, List<Liquid> liquids, List<Extra> extras) throws NoLiquidsException
     {

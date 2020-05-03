@@ -9,7 +9,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-
+/**
+ * testing TemperedDrink implementation
+ */
 @DisplayName("Testing TemperedDrink implementation")
 public class TemperedDrinkTest
 {
@@ -29,7 +31,10 @@ public class TemperedDrinkTest
         stroh80 = new Liquid("Stroh80",0.01d,80);
         milk = new Liquid("Milch",0.5d,0);
     }
-
+    /**
+     * testing AbsoluteZeroException
+     * creating temperedDrink with temperature under absolute zero and checking if Exception is thrown
+     */
     @Test
     @DisplayName("Testing AbsolutZeroException")
     public void testAbsoluteZeroException()
@@ -47,7 +52,10 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is under the absolute zero and therefor impossible!",exceptionMessage);
     }
-
+    /**
+     * testing BoilingException
+     * creating temperedDrink with temperature at boiling temperature of alcohol and checking if Exception is thrown
+     */
     @Test
     @DisplayName("Testing BoilingException Alcoholic")
     public void testBoilingExceptionAlcoholic()
@@ -66,7 +74,10 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is higher than the boiling temperature of the alcohol!", exceptionMessage);
     }
-
+    /**
+     * testing BoilingException
+     * creating non- alcoholic temperedDrink with temperature at boiling temperature of alcohol and checking if Exception is thrown
+     */
     @Test
     @DisplayName("Test BoilingException NonAlcoholic")
     public void testBoilingExceptionNonAlcoholic()
@@ -84,7 +95,10 @@ public class TemperedDrinkTest
         }
         assertEquals("The temperature of the drink is higher than the boiling temperature of water, which is the majority of the drink!",exceptionMessage);
     }
-
+    /**
+     * testing constructor
+     * assigned variables extras and liquids for the constructor and then checked if no exception was thrown
+     */
     @Test
     @DisplayName("Test Constructor")
     public void testConstructor()
@@ -103,7 +117,10 @@ public class TemperedDrinkTest
         }
         assertEquals(null, exceptionMessage);
     }
-
+    /**
+     * testing getTemperature
+     * assigned variables liquids for the constructor and then checked if temperature is the same
+     */
     @Test
     @DisplayName("Testing temperature getter")
     public void testTemperatureGetter()
