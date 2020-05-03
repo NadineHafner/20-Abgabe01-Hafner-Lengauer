@@ -12,10 +12,22 @@ public class TemperedDrink extends ComplexDrink
      * @param liquids liquids in the drink
      * @param temperature temperature of the drink
      */
-    public TemperedDrink(String name, List<Liquid> liquids, float temperature)
+    public TemperedDrink(String name, List<Liquid> liquids, float temperature)  throws UnderAbsoluteZeroException, BoilingException
     {
         super(name, liquids);
-        //TODO:
+        if(temperature < 273.15f)
+        {
+            throw new UnderAbsoluteZeroException("The temperature of the drink is under the absolute zero and therefor impossible!");
+        }
+        else if(temperature >= 78.37f && getAlcoholPercent() > 0f)
+        {
+            throw new BoilingException("The temperature of the drink is higher than the boiling temperature of the alcohol!");
+        }
+        else if(temperature >= 100f)
+        {
+            throw new BoilingException("The temperature of the drink is higher than the boiling temperature of water, which is the majority of the drink!");
+        }
+        this.temperature = temperature;
     }
 
     /**
@@ -23,9 +35,9 @@ public class TemperedDrink extends ComplexDrink
      *
      * @return the temperature of drink in °C
      */
-    public float getTemperature() {
-        //TODO:
-        return 0f;
+    public float getTemperature()
+    {
+        return temperature;
     }
 }
 
