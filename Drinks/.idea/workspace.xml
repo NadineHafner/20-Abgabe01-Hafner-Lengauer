@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="306064e7-97df-4e03-a589-b06136b451fd" name="Default Changelist" comment="" />
+    <list default="true" id="306064e7-97df-4e03-a589-b06136b451fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/FashionedDrinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/SimpleDrinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/BoilingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/BoilingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/ComplexDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/ComplexDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/Extra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/Extra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/FashionedDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/FashionedDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/TemperedDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/TemperedDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/at/fhj/iit/UnderAbsoluteZeroException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/at/fhj/iit/UnderAbsoluteZeroException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/ComplexDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/ComplexDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/TemperedDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/TemperedDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/iit/ComplexDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/ComplexDrinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/iit/LiquidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/LiquidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/iit/TemperedDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/TemperedDrinkTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bJJNSgj19IuUgf2rH6efRiKVft" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +55,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -32,24 +65,39 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.All in test (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.fhj.iit.Main" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.fhj.iit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in test">
     <configuration name="All in test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,11 +110,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FashionedDrinkTest.testGetExtras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhj.iit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fhj.iit" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.iit.FashionedDrinkTest" />
+      <option name="METHOD_NAME" value="testGetExtras" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FashionedDrinkTest.testGetExtrasToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhj.iit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fhj.iit" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.iit.FashionedDrinkTest" />
+      <option name="METHOD_NAME" value="testGetExtrasToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in test (1)" />
         <item itemvalue="JUnit.All in test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FashionedDrinkTest.testGetExtrasToString" />
+        <item itemvalue="JUnit.FashionedDrinkTest.testGetExtras" />
+        <item itemvalue="JUnit.All in test (2)" />
+        <item itemvalue="JUnit.All in test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588344222919</updated>
       <workItem from="1588344226125" duration="1465000" />
-      <workItem from="1588345886615" duration="2064000" />
+      <workItem from="1588345886615" duration="2363000" />
+      <workItem from="1588516802047" duration="6770000" />
     </task>
     <servers />
   </component>
@@ -89,37 +172,79 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="126" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588346010101">
+    <state x="365" y="43" key="#All_in_test_(3)" timestamp="1588520995808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="516" y="126" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1588346010101" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588346002321">
+    <state x="365" y="43" key="#All_in_test_(3)/0.0.1536.824@0.0.1536.824" timestamp="1588520995808" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588519489473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588346002321" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588346010169">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588519489473" />
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588520992527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588346010169" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588346010169">
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588520992527" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588520985321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588346010169" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588346010168">
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588520985321" />
+    <state x="516" y="126" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588524570769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588346010168" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588346010169">
+    <state x="516" y="126" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1588524570769" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588524245487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588346010169" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588345890396">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588524245487" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588524570817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588345890396" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588524570817" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588524570817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588524570817" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588524570817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588524570817" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588524570817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588524570817" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1588520685895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588520685895" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1588520685895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588520685895" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1588520685894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588520685894" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1588520685895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588520685895" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588516806805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588516806805" />
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588345922281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588345922281" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588522351186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588522351186" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Drinks$All_in_test__3_.ic" NAME="All in test (3) Coverage Results" MODIFIED="1588516888774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Drinks$All_in_test.ic" NAME="All in test Coverage Results" MODIFIED="1588521950044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.*</FILTER>
+    </SUITE>
   </component>
 </project>
